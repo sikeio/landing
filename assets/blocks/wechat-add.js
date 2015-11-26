@@ -1,1 +1,0 @@
-import "./wechat-add.scss";

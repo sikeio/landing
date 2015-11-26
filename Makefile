@@ -1,7 +1,7 @@
 .PHONY: build
 build:
 	webpack --progress -p
-	source env.production && harp compile _src www
+	source env.production && harp compile src www
 
 # .PHONY: dev
 # dev:
@@ -11,6 +11,6 @@ build:
 webpack:
 	webpack --progress --watch -d
 
-.PHONY: devserver
-devserver:
-	source env.development && harp server --port $$PORT
+.PHONY: server
+server:
+	source env.development && harp server src --port $$PORT
