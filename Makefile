@@ -7,6 +7,12 @@ build:
 # dev:
 # 	make webpack & make devserver & wait
 
+deploy: build
+	cd www && \
+		git add -A && \
+		git commit -m "`date`" && \
+		git push origin gh-pages
+
 .PHONY: webpack
 webpack:
 	webpack --progress --watch -d
