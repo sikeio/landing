@@ -1,0 +1,39 @@
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  border: 1px solid #3ab330;
+  color: #3ab330;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+.btn--normal {
+  color: white;
+  padding: 0.27778em 0.55556em;
+  background: #3ab330;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn--success {
+  color: white;
+  padding: 0.27778em 0.55556em;
+  background: #00d1b7;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn--middle {
+  color: white;
+  padding: 0.2em 2em;
+  font-size: 1.111em;
+  background: #3ab330;
+}
+
+.btn--large {
+  border-radius: 5px;
+  font-size: 1.33333em;
+  padding: 0.55556em 2.77778em;
+}
