@@ -11,14 +11,7 @@
 
   </div>
 
-  <form class="header-home-layout__enroll input-box js-panel--enrolling__form" action="<%= appHost %>/subscribers" accept-charset="UTF-8" method="post">
-
-    <input name="utf8" type="hidden" value="✓">
-
-    <input class="input-box__text" name="email" placeholder="name@domain.com" type="text">
-
-    <input class="input-box__button" type="submit" value="订阅迷你课程">
-  </form>
+  <%- partial("subscribe-form") %>
 
   <ul class="header-home-layout__navbar">
     <li><a href="/design101">设计</a>
