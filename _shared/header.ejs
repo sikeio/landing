@@ -3,7 +3,12 @@
 
   <div class="header-home-layout__nav">
     <a class="header-home-layout__nav__back" href="/">返回主页</a>
+
+    <div class="header-home-layout__nav__status">
+      <a class="header-user-unlogined-status" href="<%= appHost %>/login">登入</a>
+    </div>
   </div>
+
 
 
   <img class="header-home-layout__logo" src="/img/logo.png">
@@ -13,7 +18,18 @@
     </h1>
   </div>
 
-  <form class="header-home-layout__enroll input-box js-panel--enrolling__form" action="/enrollments" accept-charset="UTF-8" data-remote="true" method="post"><input name="utf8" type="hidden" value="✓"><input type="hidden" name="course_id" id="course_id" value="design101"><input class="input-box__text" name="email" placeholder="name@domain.com" type="text"><input class="input-box__button" type="submit" value="申请加入课程"></form>
+  <form class="header-home-layout__enroll input-box js-panel--enrolling__form js-email-subscribe-form"
+    action="<%= appHost %>/enrollments"
+    accept-charset="UTF-8"
+    method="post">
+    <input name="utf8" type="hidden" value="✓">
+
+    <input type="hidden" name="course_id" id="course_id" value="design101">
+
+    <input class="input-box__text" name="email" placeholder="name@domain.com" type="text">
+
+    <input class="input-box__button" type="submit" value="申请加入课程">
+  </form>
 
   <ul class="header-home-layout__navbar">
     <li><a href="/design101">设计</a>

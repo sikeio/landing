@@ -1,0 +1,5 @@
+{
+  "globals": {
+    "appHost": "$APP_HOST"
+  }
+}

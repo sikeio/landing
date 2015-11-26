@@ -2,5 +2,9 @@ doctype
 html
   head
     link(rel="stylesheet" href="/bundle/static.css")
+    script(type="text/javascript" src="/bundle/static.js")
   body#home_index.sike-global
     != yield
+
+    .js-modal
+      .js-modal__overlay
