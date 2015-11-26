@@ -6,6 +6,8 @@ require("./static/input-box.scss");
 require("./static/course-info.scss");
 require("./static/home-index.scss");
 
+import "./static/footer.scss";
+
 
 // import $ from "jquery";
 // window.jQuery = $;
