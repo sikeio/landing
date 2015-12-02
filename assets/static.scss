@@ -45,6 +45,14 @@
   }
 }
 
+.sike-global a {
+  text-decoration: none;
+}
+
+.sike-global a:hover {
+  text-decoration: underline;
+}
+
 
 @media (min-width: 720px) {
   .sike-global {
