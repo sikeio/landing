@@ -1,0 +1,8 @@
+{
+  "index": {
+    "courseId": "nodejs",
+    "title": "NodeJS 高速道路",
+    "coverImage": "/img/design-cover.jpg",
+    "layout": "../_layouts/course"
+  }
+}
