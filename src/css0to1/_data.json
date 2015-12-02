@@ -2,6 +2,7 @@
   "index": {
     "courseId": "css0to1",
     "title": "你也可以写出简洁优美的 CSS",
-    "coverImage": "/img/css-cover.jpg"
+    "coverImage": "/img/css-cover.jpg",
+    "layout": "../_layouts/course"
   }
 }

@@ -2,6 +2,7 @@
   "index": {
     "courseId": "design101",
     "title": "用 Sketch 做出逼格破表的设计",
-    "coverImage": "/img/design-cover.jpg"
+    "coverImage": "/img/design-cover.jpg",
+    "layout": "../_layouts/course"
   }
 }
