@@ -1,4 +1,6 @@
 require("normalize.css");
+require('font-awesome/css/font-awesome.css');
+// require('font-awesome');
 
 require("./static.scss");
 require("./static/header.scss");
