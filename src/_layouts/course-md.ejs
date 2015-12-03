@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/assets/static.css">
+    <script type="text/javascript" src="/assets/static.js"></script>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+
+  </head>
+  <body id="home_index" class="sike-global">
+    <%- partial("../_shared/course/header") %>
+
+    <section class="course-info__section course-info__section--large-padding">
+
+      <div class="container">
+        <section>
+          <%- yield %>
+        </section>
+      </div>
+
+    </section>
+
+    <%- partial("../_shared/course/footer") %>
+  </body>
+</html>
+

@@ -1,0 +1,8 @@
+{
+  "index": {
+    "courseId": "react",
+    "title": "Web 开发的未来, 今天就在你手里",
+    "coverImage": "/img/react-cover.jpg",
+    "layout": "../_layouts/course-md"
+  }
+}
